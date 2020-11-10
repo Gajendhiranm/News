@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    height:500px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner div{
+    width:100%;
+}
+.bg-dark{
+    opacity: 0.8;
+}
+/* .trend{
+    background: none;
+    border: none;
+    background-color: red;
+} */
+.author{
+    color:white;
+    font-weight: 900;
+    opacity: 0.8;
+}
+.time{
+    color:white;
+    font-weight: 900;
+    opacity: 0.8;
+}
+.else-author{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.con{
+    color:#6a6b6a;
+}
+.button-button{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: blueviolet;
+    height:30px;
+    width:200px;
+    color: white;
+}
+
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #0a1c2e;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
+m{
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+.nav-link{
+    color: black !important;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
