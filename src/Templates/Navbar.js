@@ -12,14 +12,14 @@ function Navbar(){
      <BrowserRouter>
      
         <nav className="navbar navbar-expand-lg navbar-light ">
-        <a className="navbar-brand" href="#"><m>NEWS</m> NOW</a>
+        <a className="navbar-brand"><m>NEWS</m> NOW</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">Home </Link>
+              <Link className="nav-link" to="/news">Home </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Science">Science</Link>
@@ -45,14 +45,13 @@ function Navbar(){
         </div>
       </nav>
       <Switch>   
-        <Route exact path="/" component={General} />
+        <Route exact path="/news" component={General} />
          <Route path="/Science" component={Science} />
          <Route path="/Health" component={Health} />
          <Route path="/Technology" component={Technology} />
          <Route path="/Entertainment" component={Entertainment} />
          <Route path="/Sports" component={Sports} />
          <Route path="/Business" component={Business} />
-
          </Switch>
          
       </BrowserRouter>
