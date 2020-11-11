@@ -22,22 +22,22 @@ function Navbar(){
               <Link className="nav-link" to="/news">Home </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Science">Science</Link>
+              <Link className="nav-link" to="/news/Science">Science</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Technology">Technology</Link>
+              <Link className="nav-link" to="/news/Technology">Technology</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Health">Health</Link>
+              <Link className="nav-link" to="/news/Health">Health</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Entertainment">Entertainment</Link>
+              <Link className="nav-link" to="/news/Entertainment">Entertainment</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Sports" >Sports</Link>
+              <Link className="nav-link" to="/news/Sports" >Sports</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Business" >Business</Link>
+              <Link className="nav-link" to="/news/Business" >Business</Link>
             </li>
           </ul>
        
@@ -46,12 +46,12 @@ function Navbar(){
       </nav>
       <Switch>   
         <Route exact path="/news" component={General} />
-         <Route path="/Science" component={Science} />
-         <Route path="/Health" component={Health} />
-         <Route path="/Technology" component={Technology} />
-         <Route path="/Entertainment" component={Entertainment} />
-         <Route path="/Sports" component={Sports} />
-         <Route path="/Business" component={Business} />
+         <Route path="/news/Science" component={Science} />
+         <Route path="/news/Health" component={Health} />
+         <Route path="/news/Technology" component={Technology} />
+         <Route path="/news/Entertainment" component={Entertainment} />
+         <Route path="/news/Sports" component={Sports} />
+         <Route path="/news/Business" component={Business} />
          </Switch>
          
       </BrowserRouter>
